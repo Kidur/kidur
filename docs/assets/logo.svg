@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <rect width="80" height="80" fill="#1C1612"/>
+  <!-- Three foundation strata, widest at base -->
+  <rect x="8"  y="52" width="64" height="10" rx="1.5" fill="#C17F3A"/>
+  <rect x="16" y="38" width="48" height="10" rx="1.5" fill="#A6682C"/>
+  <rect x="26" y="24" width="28" height="10" rx="1.5" fill="#8B5220"/>
+</svg>

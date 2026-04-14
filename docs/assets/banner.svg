@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0F0C09"/>
+      <stop offset="100%" stop-color="#1C1612"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)"/>
+
+  <!-- Subtle horizontal grain lines (suggests strata) -->
+  <line x1="0" y1="60"  x2="800" y2="60"  stroke="#2A2118" stroke-width="1"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#2A2118" stroke-width="1"/>
+  <line x1="0" y1="140" x2="800" y2="140" stroke="#2A2118" stroke-width="1"/>
+
+  <!-- Logo mark (left) -->
+  <g transform="translate(52, 60)">
+    <rect x="0"  y="52" width="64" height="10" rx="1.5" fill="#C17F3A"/>
+    <rect x="8"  y="38" width="48" height="10" rx="1.5" fill="#A6682C"/>
+    <rect x="18" y="24" width="28" height="10" rx="1.5" fill="#8B5220"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="152" y="116"
+        font-family="'Georgia', 'Times New Roman', serif"
+        font-size="56"
+        font-weight="normal"
+        letter-spacing="6"
+        fill="#F5ECD7">kidur</text>
+
+  <!-- Tagline -->
+  <text x="154" y="148"
+        font-family="'Courier New', 'Courier', monospace"
+        font-size="14"
+        letter-spacing="2"
+        fill="#7A6A55">LOCAL-FIRST MUTATION LOG · SUPERTAG SUBSTRATE</text>
+
+  <!-- Right accent: thin vertical bar -->
+  <rect x="770" y="40" width="2" height="120" rx="1" fill="#C17F3A" opacity="0.4"/>
+</svg>

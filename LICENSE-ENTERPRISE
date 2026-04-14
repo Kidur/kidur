@@ -1,0 +1,36 @@
+Kidur Enterprise License
+Copyright (c) 2026 Evobiosys / Kidur Project
+
+This software is available under the AGPL-3.0 license for qualifying users
+(see LICENSE). Organizations that have received external investment are
+required to obtain a commercial license instead.
+
+DEFINITIONS
+
+"Bootstrapped Organization" means an organization that is entirely
+self-funded or funded through its own revenues, and has not received
+angel investment, seed funding, venture capital, private equity, grants
+from accelerators, or equivalent institutional funding.
+
+"Funded Organization" means any organization that does not qualify as
+a Bootstrapped Organization.
+
+LICENSE GRANT
+
+Bootstrapped Organizations may use, modify, and distribute this software
+under the terms of the GNU Affero General Public License, Version 3
+(AGPL-3.0), a copy of which is included in this repository as LICENSE.
+
+Funded Organizations must obtain a separate commercial license from
+Evobiosys before using this software in production.
+
+PRICING
+
+Commercial license pricing is to be determined.
+Contact: hello@kidur.org
+
+CONTRIBUTOR LICENSE AGREEMENT
+
+By submitting a contribution to this project, you grant Evobiosys a
+perpetual, worldwide, non-exclusive, royalty-free license to use your
+contribution in both the AGPL and commercial versions of this software.

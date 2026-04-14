@@ -1,0 +1,49 @@
+name = "drawing"
+description = "Visual content from scans — diagrams, sketches, illustrations"
+
+# --- Common fields ---
+
+[[fields]]
+name = "privacy_tier"
+type = "enum"
+required = true
+options = ["public", "personal", "sensitive", "shared"]
+
+[[fields]]
+name = "date_original"
+type = "timestamp"
+
+[[fields]]
+name = "topic_path"
+type = "text"
+
+[[fields]]
+name = "source_service"
+type = "text"
+
+[[fields]]
+name = "ai_generated_fields"
+type = "multi_select"
+
+# --- Type-specific fields ---
+
+[[fields]]
+name = "ocr_status"
+type = "enum"
+options = ["queued", "done", "failed", "skipped"]
+
+[[fields]]
+name = "has_text_labels"
+type = "bool"
+
+[[fields]]
+name = "vision_description"
+type = "rich_text"
+
+[[fields]]
+name = "title"
+type = "text"
+
+[[fields]]
+name = "keywords"
+type = "multi_select"

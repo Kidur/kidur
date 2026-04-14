@@ -1,0 +1,23 @@
+/target
+/data
+*.db
+*.rocksdb
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# AI context (contains personal information — never publish)
+CLAUDE.md
+
+# Internal sub-projects
+/projects/
+
+# Supertag backups
+*.bak-v*
+
+# Internal planning and session docs
+/docs/plans/
+context.md
+ngi-zero-application.md

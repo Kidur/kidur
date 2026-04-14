@@ -1,0 +1,15 @@
+[package]
+name = "kidur-crdt"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+description = "CRDT wrapper (Loro) for Kidur nodes"
+
+[dependencies]
+kidur-core = { workspace = true }
+loro = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }

@@ -1,0 +1,24 @@
+[package]
+name = "kidur-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+description = "Kidur command-line tool — add, list, and manage nodes"
+
+[[bin]]
+name = "kidur"
+path = "src/main.rs"
+
+[dependencies]
+kidur-core = { workspace = true }
+kidur-log = { workspace = true }
+kidur-supertag = { workspace = true }
+clap = { workspace = true }
+chrono = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }

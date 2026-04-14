@@ -1,0 +1,41 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/kidur-core",
+    "crates/kidur-supertag",
+    "crates/kidur-crdt",
+    "crates/kidur-log",
+    "crates/kidur-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+license = "AGPL-3.0-only"
+repository = "https://github.com/kidur/kidur"
+authors = ["Kidur Contributors"]
+
+[workspace.dependencies]
+kidur-core = { path = "crates/kidur-core", version = "0.1.0" }
+kidur-supertag = { path = "crates/kidur-supertag", version = "0.1.0" }
+kidur-crdt = { path = "crates/kidur-crdt", version = "0.1.0" }
+kidur-log = { path = "crates/kidur-log", version = "0.1.0" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+uuid = { version = "1.8", features = ["v7", "v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "1"
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+loro = "1.0"
+clap = { version = "4", features = ["derive", "env"] }
+tempfile = "3"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+strip = "symbols"
