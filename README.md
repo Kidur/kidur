@@ -3,8 +3,9 @@
 </p>
 
 <p align="center">
-  <strong>Local-first mutation log + supertag substrate</strong><br/>
-  The canonical data foundation for QuestHub, Soaro, and SilkNotes
+  <strong>The (aspired) universal backend for text &amp; canvas</strong><br/>
+  Open infrastructure for inter-connecting knowledge systems ·
+  <em>Kidur (𒆳𒁺) — earth-settled, foundation — Sumerian</em>
 </p>
 
 <p align="center">
@@ -82,9 +83,9 @@ Drop a `.toml` file into your supertags directory to add your own.
 
 ```toml
 [dependencies]
-kidur-core     = { git = "https://github.com/kidur/kidur" }
-kidur-log      = { git = "https://github.com/kidur/kidur" }
-kidur-supertag = { git = "https://github.com/kidur/kidur" }
+kidur-core     = { git = "https://github.com/Kidur/kidur" }
+kidur-log      = { git = "https://github.com/Kidur/kidur" }
+kidur-supertag = { git = "https://github.com/Kidur/kidur" }
 ```
 
 ## License
@@ -92,4 +93,8 @@ kidur-supertag = { git = "https://github.com/kidur/kidur" }
 Dual-licensed:
 
 - **[AGPL-3.0](LICENSE)** — free for bootstrapped and self-funded organizations
-- **[Enterprise](LICENSE-ENTERPRISE)** — required for organizations that have received external investment · pricing TBD · [contact us](mailto:hello@kidur.org)
+- **[Enterprise](LICENSE-ENTERPRISE)** — required for organizations that have received external investment · pricing TBD · [connect@evobiosys.org](mailto:connect@evobiosys.org)
+
+---
+
+<sub>Initial implementation developed with <a href="https://claude.ai/code">Claude Code</a>.</sub>
